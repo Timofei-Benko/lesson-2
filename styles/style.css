@@ -1,3 +1,42 @@
-h1 {
-    color: coral;
+/*font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif;*/
+
+html {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #FFFFFF;
+    text-align: center;
+}
+
+.main-wrapper {
+    display: inline-block;
+    height: 590px;
+    width: 1400px;   
+}
+
+header {
+    display: inline-block;
+    margin-top: 107px;
+    margin-bottom: 80px;
+   
+}
+
+.title {
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    text-transform: uppercase;
+    color: #212121;
+}
+
+.underline {
+    margin: 30px auto;
+    border: none;
+    width: 64px;
+    height: 2px;
+    background-color: #FF8D2D;
+}
+
+.main-text {
+    font-size: 14px;
+    color: #86878B;
+
 }

@@ -1,0 +1,91 @@
+html {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #FFFFFF;
+    text-align: center;
+}
+
+.main-wrapper {
+    display: inline-block;
+    height: 590px;
+    width: 1400px;   
+}
+
+header {
+    display: inline-block;
+    margin-top: 107px;
+    margin-bottom: 80px;
+   
+}
+
+.main-title {
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    text-transform: uppercase;
+    color: #212121;
+}
+
+.underline {
+    margin: 30px auto;
+    border: none;
+    width: 64px;
+    height: 2px;
+    background-color: #FF8D2D;
+}
+
+.main-text {
+    font-size: 14px;
+    color: #86878B;
+}
+
+section {
+    display: inline-block;
+    font-size: 0;
+    height: 197px;
+    width: 350px;
+    margin: 0 16px;  
+}
+
+.icon-wrapper {
+    width: 68px;
+    height: 68px;
+    border: 2px solid #FF8D2D;
+    margin: 0 auto;
+    border-radius: 50%;
+    font-size: 28px;
+    color: #FF8D2D;
+    position: relative;
+}
+
+.bulb-icon {
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    right: 35%;
+    transform: translateY(-50%);
+}
+
+.keyboard-icon {
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    right: 25%;
+    transform: translateY(-50%);
+}
+
+.bolt-icon {
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    right: 35%;
+    transform: translateY(-50%);
+}
+
+.feature-title {
+    font-size: 20px;
+    margin: 29px 0;
+}
+
+.feature-descr {
+    font-size: 14px;
+    color: #86878B;
+}

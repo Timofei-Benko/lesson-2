@@ -1,7 +1,12 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
 html {
     font-family: 'Open Sans', sans-serif;
-    text-align: center;
     background-color: #FFFFFF;
+    text-align: center;
 }
 
 .main-wrapper {
@@ -12,8 +17,8 @@ html {
 
 header {
     display: inline-block;
-    margin-top: 107px;
-    margin-bottom: 80px;
+    padding-top: 106px;
+    padding-bottom: 80px;
    
 }
 
@@ -25,10 +30,10 @@ header {
 }
 
 .underline {
-    width: 64px;
-    height: 2px;
     margin: 30px auto;
     border: none;
+    width: 64px;
+    height: 2px;
     background-color: #FF8D2D;
 }
 
@@ -38,11 +43,12 @@ header {
 }
 
 section {
+    box-sizing: content-box;
     display: inline-block;
     font-size: 0;
     height: 197px;
     width: 350px;
-    margin: 0 16px;  
+    padding-right: 32px;
 }
 
 .icon-wrapper {
@@ -51,46 +57,47 @@ section {
     border: 2px solid #FF8D2D;
     margin: 0 auto;
     border-radius: 50%;
+    font-size: 28px;
     color: #FF8D2D;
     position: relative;
 }
 
-.lightbulb-icon {
+.bulb-icon {
+    display: inline-block;
     position: absolute;
     top: 50%;
-    right: 27.5%;
+    right: 35%;
     transform: translateY(-50%);
-    display: inline-block;
-    height: 30px;
-    width: 30px;
 }
 
 .keyboard-icon {
+    display: inline-block;
     position: absolute;
     top: 50%;
     right: 25%;
     transform: translateY(-50%);
-    display: inline-block;
-    height: 35px;
-    width: 35px;
 }
 
 .bolt-icon {
+    height: 50px;
+    width: 50px;
+    background: url(img\bolt-icon.png);
+    display: inline-block;
     position: absolute;
     top: 50%;
-    right: 27%;
+    right: 11%;
     transform: translateY(-50%);
-    display: inline-block;
-    height: 30px;
-    width: 30px;
 }
 
 .feature-title {
-    margin: 29px 0;
     font-size: 20px;
+    padding: 25px 0;
 }
 
 .feature-descr {
     font-size: 14px;
     color: #86878B;
+    width: 350px;
+    height: 57px;
+    margin: 0 auto;
 }

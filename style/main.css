@@ -1,3 +1,7 @@
+/*=====================================
+GENERAL SET-UP
+=====================================*/
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -5,53 +9,72 @@
 
 html {
     font-family: 'Open Sans', sans-serif;
-    background-color: #FFFFFF;
+    background-color: #f7794b;
     text-align: center;
-}
-
-.main-wrapper {
-    display: inline-block;
-    height: 590px;
-    width: 1400px;   
 }
 
 header {
     display: inline-block;
-    padding-top: 106px;
-    padding-bottom: 80px;
-   
 }
 
-.main-title {
+.header__title {
     font-family: 'Raleway', sans-serif;
     font-size: 36px;
     text-transform: uppercase;
-    color: #212121;
 }
 
-.underline {
-    margin: 30px auto;
+.header__underline {
     border: none;
     width: 64px;
     height: 2px;
-    background-color: #FF8D2D;
 }
 
-.main-text {
+.header__text {
     font-size: 14px;
+}
+
+/*=====================================
+TOP ARTICLE
+=====================================*/
+
+.top {
+    display: inline-block;
+    width: 1401px;
+    height: 591px;
+    background-color: #FFFFFF;
+}
+
+.top header {
+    padding-top: 106px;
+    padding-bottom: 80px;   
+}
+
+.top__title {
+    color: #212121;
+}
+
+.top__underline {
+    background-color: #FF8D2D;
+    margin: 30px auto;
+}
+
+.top__text {
     color: #86878B;
 }
 
-section {
+.card {
     box-sizing: content-box;
     display: inline-block;
     font-size: 0;
     height: 197px;
     width: 350px;
-    padding-right: 32px;
 }
 
-.icon-wrapper {
+.card:nth-last-of-type(2) {
+    padding: 0 32px;
+}
+
+.card__icon {
     width: 68px;
     height: 68px;
     border: 2px solid #FF8D2D;
@@ -62,42 +85,114 @@ section {
     position: relative;
 }
 
-.bulb-icon {
-    display: inline-block;
-    position: absolute;
-    top: 50%;
-    right: 35%;
-    transform: translateY(-50%);
+.lightbulb-icon {
+    background: url(../img/icons/lightbulb-icon.png) center no-repeat;
+    background-size: 30px 30px;
 }
 
 .keyboard-icon {
-    display: inline-block;
-    position: absolute;
-    top: 50%;
-    right: 25%;
-    transform: translateY(-50%);
+    background: url(../img/icons/keyboard-icon.png) center no-repeat;
+    background-size: 35px 30px;
 }
 
 .bolt-icon {
-    height: 50px;
-    width: 50px;
-    background: url(..\img\bolt-icon.png);
-    display: inline-block;
-    position: absolute;
-    top: 50%;
-    right: 11%;
-    transform: translateY(-50%);
+    background: url(../img/icons/bolt-icon.png) center no-repeat;
+    background-size: 30px 30px;
 }
 
-.feature-title {
+.card__title {
     font-size: 20px;
     padding: 25px 0;
 }
 
-.feature-descr {
+.card__descr {
     font-size: 14px;
     color: #86878B;
     width: 350px;
     height: 57px;
     margin: 0 auto;
+}
+
+/*=====================================
+BOTTOM ARTICLE
+=====================================*/
+
+.bottom {
+    display: inline-block;
+    width: 1401px;
+    height: 422px;    
+}
+
+.bottom header {
+    width: 1401px;
+    height: 322px;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/bg/city-background.png) center no-repeat;
+}
+
+.bottom__title {
+    color: #FFFFFF;
+    padding-top: 76px;
+}
+
+.bottom__underline {
+    margin: 26px auto 23px auto;
+    background-color: #FFFFFF;
+}
+
+.bottom__text {
+    color: #FFFFFF;
+    padding-bottom: 33px;
+}
+
+button {
+    box-sizing: content-box;
+    background-color: transparent;
+    border: 2px solid #FFFFFF;
+    color: #FFFFFF;
+    padding: 10px 30px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-bottom: 63px;
+  }
+
+button:focus {
+    outline:0;
+}
+
+button:hover {
+    background-color: #FFFFFF;
+    color: #86878B;
+    transition: all 0.1s ease-in-out;
+}
+
+.bottom footer {
+    height: 101px;
+    background-color: #212121;
+    position: relative;
+}
+
+.bottom__social-media-icons {
+    display: inline-block;
+    height: 100px;
+    width: 317px;
+    background: url(../img/icons/social-media-icons.png) center no-repeat;
+    padding-top: 39px;
+}
+
+.bottom__link {
+    display: inline-block;
+    font-size: 0;
+    height: 23px;
+    width: 23px;
+    margin-right: 18px;
+}
+
+.bottom__copyright {
+    position: absolute;
+    top: 74px;
+    left: 630px;
+    font-size: 12px;
+    color: #FFFFFF;
+    opacity: 0.5;
 }

@@ -81,7 +81,7 @@ section {
 .bolt-icon {
     height: 50px;
     width: 50px;
-    background: url(img\bolt-icon.png);
+    background: url(..\img\bolt-icon.png);
     display: inline-block;
     position: absolute;
     top: 50%;

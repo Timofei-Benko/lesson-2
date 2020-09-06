@@ -1,5 +1,7 @@
 # Домашнее задание к уроку 3
 
+https://timofei-benko.github.io/lesson-3/
+
 ### Верстаем макет.
 
 ***

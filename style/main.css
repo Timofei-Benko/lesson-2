@@ -24,9 +24,9 @@ header {
 }
 
 .header__underline {
-    border: none;
     width: 64px;
     height: 2px;
+    border: none;
 }
 
 .header__text {
@@ -54,8 +54,8 @@ TOP ARTICLE
 }
 
 .top__underline {
-    background-color: #FF8D2D;
     margin: 30px auto;
+    background-color: #FF8D2D;
 }
 
 .top__text {
@@ -65,9 +65,9 @@ TOP ARTICLE
 .card {
     box-sizing: content-box;
     display: inline-block;
-    font-size: 0;
     height: 197px;
     width: 350px;
+    font-size: 0;
 }
 
 .card:nth-last-of-type(2) {
@@ -75,14 +75,14 @@ TOP ARTICLE
 }
 
 .card__icon {
+    position: relative;
     width: 68px;
     height: 68px;
-    border: 2px solid #FF8D2D;
     margin: 0 auto;
+    border: 2px solid #FF8D2D;
     border-radius: 50%;
     font-size: 28px;
     color: #FF8D2D;
-    position: relative;
 }
 
 .lightbulb-icon {
@@ -101,16 +101,16 @@ TOP ARTICLE
 }
 
 .card__title {
-    font-size: 20px;
     padding: 25px 0;
+    font-size: 20px;
 }
 
 .card__descr {
-    font-size: 14px;
-    color: #86878B;
     width: 350px;
     height: 57px;
     margin: 0 auto;
+    font-size: 14px;
+    color: #86878B;
 }
 
 /*=====================================
@@ -130,8 +130,8 @@ BOTTOM ARTICLE
 }
 
 .bottom__title {
-    color: #FFFFFF;
     padding-top: 76px;
+    color: #FFFFFF;
 }
 
 .bottom__underline {
@@ -140,24 +140,23 @@ BOTTOM ARTICLE
 }
 
 .bottom__text {
-    color: #FFFFFF;
     padding-bottom: 33px;
+    color: #FFFFFF;
 }
 
 button {
     box-sizing: content-box;
+    display: inline-block;
+    margin-bottom: 63px;
+    padding: 10px 30px;
     background-color: transparent;
     border: 2px solid #FFFFFF;
     color: #FFFFFF;
-    padding: 10px 30px;
-    text-decoration: none;
-    display: inline-block;
     font-size: 16px;
-    margin-bottom: 63px;
   }
 
 button:focus {
-    outline:0;
+    outline: 0;
 }
 
 button:hover {
@@ -167,25 +166,25 @@ button:hover {
 }
 
 .bottom footer {
+    position: relative;
     height: 101px;
     background-color: #212121;
-    position: relative;
 }
 
 .bottom__social-media-icons {
     display: inline-block;
     height: 100px;
     width: 317px;
-    background: url(../img/icons/social-media-icons.png) center no-repeat;
     padding-top: 39px;
+    background: url(../img/icons/social-media-icons.png) center no-repeat;
 }
 
 .bottom__link {
     display: inline-block;
-    font-size: 0;
     height: 23px;
     width: 23px;
     margin-right: 18px;
+    font-size: 0;
 }
 
 .bottom__copyright {

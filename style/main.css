@@ -166,31 +166,31 @@ button:hover {
 }
 
 .bottom footer {
-    position: relative;
     height: 101px;
     background-color: #212121;
 }
 
 .bottom__social-media-icons {
-    display: inline-block;
-    height: 100px;
+    display: block;
+    height: 60px;
     width: 317px;
-    padding-top: 39px;
-    background: url(../img/icons/social-media-icons.png) center no-repeat;
+    margin: 0 auto;
+    background: url(../img/icons/social-media-icons.png) bottom no-repeat;
 }
 
 .bottom__link {
+    box-sizing: content-box;
     display: inline-block;
     height: 23px;
     width: 23px;
     margin-right: 18px;
+    margin-top: 38px;
     font-size: 0;
 }
 
 .bottom__copyright {
-    position: absolute;
-    top: 74px;
-    left: 630px;
+    display: block;
+    padding-top: 15px;
     font-size: 12px;
     color: #FFFFFF;
     opacity: 0.5;
